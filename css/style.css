@@ -1,0 +1,91 @@
+
+body{
+background-color: #f2ed6f;
+font-family: 'Josefin Sans', sans-serif;
+}
+.jumbotron1{
+  padding: 2rem 1rem;
+margin-bottom: 2rem;
+background-color: #f4e04d;
+border-radius: .3rem;
+
+}
+.fit-image{
+width: 100%;
+object-fit: cover;
+height: 100%; /* only if you want fixed height */
+}
+.card-body{
+background-color: #cee397;
+}
+.navbar{
+background-color: #8db1ab;
+}
+.container{
+  padding-right: 5px;
+    padding-left: 5px;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.myButton1 {
+	box-shadow:inset 0px 1px 0px 0px #9acc85;
+	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	background-color:#74ad5a;
+	border:1px solid #3b6e22;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+}
+.myButton1:hover {
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	background-color:#68a54b;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+.carousel-caption {
+
+z-index:10;
+color:#fff;
+text-align:left;
+top:70%;
+left:5%;
+bottom:auto;
+color:black;
+-webkit-transform:translate(0, -50%);
+-ms-transform:translate(0, -50%);
+transform:translate(0, -50%);
+}
+.card{
+  background-color: #f4e04d;
+}
+.card-body{
+  background-color: #f4e04d
+}
